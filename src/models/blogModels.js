@@ -4,7 +4,6 @@ const blogSchema = new mongoose.Schema(
   {
     title: { type: String, required: [true, "Please fill the title"] },
     content: { type: String, required: [true, "Please fill the content"] },
-    image: { type: String, required: false },
   },
   { timestamps: true }
 );
